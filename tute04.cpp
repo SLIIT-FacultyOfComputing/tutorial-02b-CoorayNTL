@@ -39,8 +39,8 @@ long Factorial(int no) {
 }
 
 long nCr(int n, int r) {
-    long NCR = 0;
-    NCR = Factorial(n) / (Factorial(r) * Factorial((n - r)));
+    long Combination = 0;
+    Combination = Factorial(n) / (Factorial(r) * Factorial((n - r)));
 
-    return NCR;
+    return Combination;
   }
